@@ -1,0 +1,39 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px;
+
+}
+.title-content h1 {
+  font-size: 30px;
+  color: #5B68B3;
+  font-weight: bold;
+}
+
+.fields-content ul li {
+  list-style: none;
+  padding: 20px;
+
+}
+
+button {
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  background-color: #5B68B3;
+  padding: 10px;
+  border-radius: 7px;
+  width: 100px;
+  margin-left: 60px;
+}
+
+
+input {
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.dontHaveAccount {
+  padding: 10px;
+}
