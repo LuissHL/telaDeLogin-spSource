@@ -3,35 +3,32 @@
   flex-direction: column;
   align-items: center;
   margin: 40px;
-
 }
 .title-content h1 {
   font-size: 30px;
-  color: #5B68B3;
+  color: #5b68b3;
   font-weight: bold;
+}
+
+.fields-content {
+  display: flex;
+  flex-direction: column;
 }
 
 .fields-content ul li {
   list-style: none;
-  padding: 20px;
-
+  margin: 10px;
 }
 
 button {
   text-align: center;
   font-weight: bold;
   color: white;
-  background-color: #5B68B3;
+  background-color: #5b68b3;
   padding: 10px;
   border-radius: 7px;
-  width: 100px;
-  margin-left: 60px;
-}
-
-
-input {
-  border-radius: 15px;
-  padding: 10px;
+  width: 120px;
+  margin: auto;
 }
 
 .dontHaveAccount {

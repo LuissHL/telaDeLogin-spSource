@@ -1,12 +1,12 @@
 import { Component } from '@angular/core';
+import { InputDefaultComponent } from '../input-default/input-default.component';
 
 @Component({
   selector: 'app-sign-in',
   standalone: true,
-  imports: [],
+  imports: [InputDefaultComponent, InputDefaultComponent],
   templateUrl: './sign-in.component.html',
-  styleUrl: './sign-in.component.scss'
+  styleUrl: './sign-in.component.scss',
 })
 export class SignInComponent {
-
-}
+ }
