@@ -11,5 +11,6 @@ import { FormsModule } from '@angular/forms';
 export class InputDefaultComponent {
   @Input() type!: string;
   @Input() placeholder!: string;
+  @Input() required: 'false' | 'true' = 'true';
   value: string = '';
 }
